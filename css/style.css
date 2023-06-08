@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'open-sans-regular';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'open-sans-italic';
+    src: url('../fonts/OpenSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'open-sans-bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'open-sans-regular', Arial, Helvetica, sans-serif;
+}
+
+.head-nav {
+    text-align: center;
+    background-color: rgb(244, 244, 193);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.header-link {
+    margin: 0 63px;
+}
+
+.imgwrap {
+    text-align: center;
+    background-color: rgb(246, 246, 199);
+    width: 100vw;
+    padding: 20px;
+}
+
+.mainh {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: darkblue;
+    background-color: rgb(214, 225, 135);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.heading {
+    color: rgb(23, 5, 53);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    background-color: bisque;
+}
+
+.photo {
+    padding: 50px;
+}
+
+.main-content {
+    padding: 10px;
+    width: 100vw;
+    background-color: beige;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: rgb(244, 244, 193);
+    height: 100px;
+    border-top: 2px solid blue;
+    padding: 10px;
+}
+
+.blockquote {
+    text-align: center;
+    background-color: azure;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 80px;
+    width: 400px;
+    height: 20px;
+    border: solid 2px cyan;
+    transition: width 4s, height 4s,
+        background-color 4s, font-size 4s,
+        border-radius 4s, padding-top 4s;
+}
+
+.link {
+    cursor: grabbing;
+}
+
+.foot-link {
+    width: 300px;
+    margin: auto;
+}
+
+.link:hover {
+    color: brown;
+}
+
+.blockquote:hover {
+    width: 600px;
+    height: 80px;
+    padding-top: 50px;
+    background-color: rgb(181, 152, 208);
+    font-size: 25px;
+    border-radius: 20px;
+}
